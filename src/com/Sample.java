@@ -8,11 +8,11 @@ class sample1{
 }
 public class Sample {
 	static int a;
-public static void main(String[] args) {
-	sample1 s = new sample1();
-	System.out.println("The value in main class:"+a);
-	System.out.println(s.a);
-	s.methods();
-	
-}
+	public static void main(String[] args) {
+		sample1 s = new sample1();
+		System.out.println("The value in main class:"+a);
+		System.out.println(s.a);
+		s.methods();
+
+	}
 }
